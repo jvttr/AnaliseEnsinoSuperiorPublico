@@ -1,0 +1,2 @@
+# ANÁLISE DO DESEMPENHO NO ENADE DE ESTUDANTES DO ENSINO SUPERIOR MATRICULADOS EM UNIVERSIDADES PÚBLICAS SEGUNDO PERFIL SOCIOECONÔMICO
+O artigo XXVI da DUDH declara sobre acesso ao ensino superior mediante meritocracia, contudo não abrange a sustentabilidade do aluno após o processo seletivo. Este trabalho tem como objetivo avaliar se existe uma alta discrepância no desempenho entre grupos socioeconômicos distintos entre os graduandos do ensino superior público.
