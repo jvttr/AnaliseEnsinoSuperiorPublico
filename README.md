@@ -4,7 +4,8 @@ O artigo XXVI da DUDH declara sobre acesso ao ensino superior mediante meritocra
 Este trabalho têm finalidade básica estratégica, com objetivo descritivo, utiliza uma abordagem qualiquantitativa, através do método hipotético dedutivo e faz uso de procedimentos bibliográficos e documentais.
 Para facilitar o trabalho em grupo de maneira remoto, o desenvolvimento do trabalho faz uso das ferramentas Git, um versionador de documentos, e Docker, que permite criar ambientes virtuais comumente chamados de containers. Pressupondo que você já tenha instalado git no seu computador, eis os passos para configurar o ambiente de trabalho usando o Docker via Linux:
 
-1. Instale, caso ainda não tenha instalado, através deste manual segundo seu sistema operacional
+1. Instale o Docker, caso ainda não tenha instalado, através deste manual segundo seu sistema operacional:
+https://docs.docker.com/engine/install/ubuntu/
 
 2. Na pasta AnaliseEnsinoSuperiorPublico clonada através do github, rode o comando:
 $ docker build -t analise_ensino_superior_publico .
