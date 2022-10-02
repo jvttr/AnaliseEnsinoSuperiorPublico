@@ -6,6 +6,7 @@ RUN mkdir -p /home/notebooks
 WORKDIR /home/notebooks
 
 RUN pip install numpy \
+		requests \
 		pandas \
 		pathlib \
 		jupyter \
