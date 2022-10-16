@@ -4,11 +4,12 @@ O artigo XXVI da Declaração Universal dos Direitos Humanos defende o acesso gr
 Este trabalho têm finalidade básica estratégica, com objetivo descritivo, utiliza uma abordagem qualiquantitativa, através do método hipotético dedutivo e faz uso de procedimentos bibliográficos e documentais.
 Para facilitar o trabalho em grupo de maneira remota, o desenvolvimento do trabalho faz uso das ferramentas Git, um versionador de documentos, e Docker, que permite criar ambientes virtuais usualmente chamados de containers. Segue os passos para configurar o ambiente de trabalho necessário para executar e visualizar os resultados desta análise:
 
-1. Instale o git, caso ainda não tenha instalado, através deste manual:
-https://git-scm.com/book/pt-br/v2
+1. Instale o git, caso ainda não tenha instalado, através do comando:
+$ sudo apt-get install git-all
 
-2. Instale também o Docker, caso ainda não tenha instalado, através deste manual segundo seu sistema operacional:
-https://docs.docker.com/engine/install/ubuntu/
+2. Instale também o Docker, caso ainda não tenha instalado, através dos comandos:
+$ sudo dpkg --configure -a
+$ sudo apt install docker.io
 
 3. Na pasta AnaliseEnsinoSuperiorPublico clonada através do github, rode o comando:
 $ docker build -t analise_ensino_superior_publico .
