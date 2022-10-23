@@ -7,10 +7,10 @@ ID;NOME_GRUPO;COLUNA;TIPOS;NULO;EAD;SIGNIFICADO;DESCRICAO
 6;identificacao;CO_UF;int;-1;1;;Código do IBGE da Unidade da Federação do local de oferta do curso
 7;identificacao;NO_MUNICIPIO;str;;1;;Nome do Município do local de oferta do curso
 8;identificacao;CO_MUNICIPIO;int;-1;1;;Código do IBGE do Município do local de oferta do curso
-9;identificacao;IN_CAPITAL;int;-1;1;{0: “Não”, 1: “Sim"};Informa se o local de oferta do curso está localizado em capital de Estado
-10;identificacao;TP_ORGANIZACAO_ACADEMICA;int;-1;0;{1: “Universidade”, 2: “Centro Universitário”, 3: “Faculdade”, 4: “Instituto Federal de Educação, Ciência e Tecnologia”, 5: “Centro Federal de Educação Tecnológica"};Tipo da Organização Acadêmica da IES
-11;identificacao;TP_CATEGORIA_ADMINISTRATIVA;int;-1;0;{1: “Pública Federal”, 2: “Pública Estadua”l, 3: “Pública Municipal”, 4: “Privada com fins lucrativos”, 5: “Privada sem fins lucrativos”, 6: “Privada - Particular em sentido estrito”, 7: “Especial”, 8: “Privada comunitária”, 9: “Privada confessional"};Tipo da Categoria Administrativa da IES
-12;identificacao;TP_REDE;int;-1;0;{1: “Pública”, 2: “Privada"};Rede de Ensino
+9;identificacao;IN_CAPITAL;int;-1;1;"{0: “Não”, 1: “Sim""}";Informa se o local de oferta do curso está localizado em capital de Estado
+10;identificacao;TP_ORGANIZACAO_ACADEMICA;int;-1;0;"{1: “Universidade”, 2: “Centro Universitário”, 3: “Faculdade”, 4: “Instituto Federal de Educação, Ciência e Tecnologia”, 5: “Centro Federal de Educação Tecnológica""}";Tipo da Organização Acadêmica da IES
+11;identificacao;TP_CATEGORIA_ADMINISTRATIVA;int;-1;0;"{1: “Pública Federal”, 2: “Pública Estadual”, 3: “Pública Municipal”, 4: “Privada com fins lucrativos”, 5: “Privada sem fins lucrativos”, 6: “Privada - Particular em sentido estrito”, 7: “Especial”, 8: “Privada comunitária”, 9: “Privada confessional""}";Tipo da Categoria Administrativa da IES
+12;identificacao;TP_REDE;int;-1;0;"{1: “Pública”, 2: “Privada""}";Rede de Ensino
 13;identificacao;CO_IES;int;-1;0;;Código da Instituição 
 14;identificacao;NO_CINE_ROTULO;str;;0;;Nome do curso, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco
 15;identificacao;CO_CINE_ROTULO;str;;0;;Código de identificação do curso, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco
@@ -20,9 +20,9 @@ ID;NOME_GRUPO;COLUNA;TIPOS;NULO;EAD;SIGNIFICADO;DESCRICAO
 19;identificacao;NO_CINE_AREA_ESPECIFICA;str;;0;;Nome da área específica, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco
 20;identificacao;CO_CINE_AREA_DETALHADA;str;;0;;Código de identificação da área detalhada, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco
 21;identificacao;NO_CINE_AREA_DETALHADA;str;;0;;Nome da área detalhada, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco
-22;identificacao;TP_GRAU_ACADEMICO;int;-1;1;{1: “Bacharelado”, 2: “Licenciatura”, 3: “Tecnológico”, 4: “Bacharelado e Licenciatura"};Tipo do grau acadêmico conferido ao aluno pela conclusão dos requisitos exigidos pelo curso
-23;identificacao;TP_MODALIDADE_ENSINO;int;-1;0;{1: “Presencial”, 2: “Curso a distância"};Tipo da modalidade de ensino do curso
-24;identificacao;TP_NIVEL_ACADEMICO;int;-1;0;{1: “Graduação”, 2: “Sequencial de Formação Específica"};Tipo do nível acadêmico do curso
+22;identificacao;TP_GRAU_ACADEMICO;int;-1;1;"{1: “Bacharelado”, 2: “Licenciatura”, 3: “Tecnológico”, 4: “Bacharelado e Licenciatura""}";Tipo do grau acadêmico conferido ao aluno pela conclusão dos requisitos exigidos pelo curso
+23;identificacao;TP_MODALIDADE_ENSINO;int;-1;0;"{1: “Presencial”, 2: “Curso a distância""}";Tipo da modalidade de ensino do curso
+24;identificacao;TP_NIVEL_ACADEMICO;int;-1;0;"{1: “Graduação”, 2: “Sequencial de Formação Específica""}";Tipo do nível acadêmico do curso
 25;estatistica;QT_CURSO;int;-1;0;;Número de cursos
 26;estatistica;QT_VG_TOTAL;int;-1;0;;Quantidade total de vagas oferecidas nos cursos
 27;estatistica;QT_VG_TOTAL_DIURNO;int;-1;1;;Quantidade total de vagas oferecidas nos cursos no turno diurno
