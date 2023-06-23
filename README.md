@@ -22,7 +22,7 @@ sudo apt-get install git-all
 ~~~
 git clone https://github.com/jvttr/AnaliseEnsinoSuperiorPublico.git
 ~~~
-3. Instale também o Docker (Caso não tenha instaldo ainda):
+3. Instale também o Docker (Caso não tenha instalado ainda):
 ~~~
 sudo dpkg --configure -a
 sudo apt install docker.io
